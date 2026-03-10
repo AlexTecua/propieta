@@ -1,8 +1,29 @@
+# Mac
 .DS_Store
-node_modules
+
+# Node
+/node_modules
+
+# Logs
 *.log
+
+# Environment
 .env
-wp-content/uploads
+
+# WordPress config
 wp-config.php
-node_modules
-wp-content/cache
+
+# WordPress core
+/wp-admin/
+/wp-includes/
+
+# Uploads (archivos de usuarios)
+/wp-content/uploads/
+
+# Cache
+/wp-content/cache/
+
+# Otros temporales
+*.zip
+*.tar.gz
+*.bak
